@@ -1,0 +1,28 @@
+{
+    "eslint.enable": true,
+    //保存自动格式化
+    "editor.formatOnSave": true,
+    //根据文件后缀名定义vue文件类型
+    "files.associations": {
+        "*.vue": "vue"
+    },
+    //配置 ESLint 检查的文件类型
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "vue",
+    ],
+    "vetur.format.defaultFormatter.ts": "none",
+    "vetur.format.defaultFormatter.js": "none",
+    "vetur.format.defaultFormatter.html": "none",
+    "vetur.format.defaultFormatter.scss": "none",
+    "vetur.experimental.templateInterpolationService": true,
+    "stylelint.autoFix": true,
+    "stylelint.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "vetur.validation.template": false,
+    "emmet.triggerExpansionOnTab": true
+}
